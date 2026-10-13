@@ -1,0 +1,28 @@
+{
+  "name": "intro-to-backend",
+  "version": "1.0.0",
+  "description": "a tutorial for intro to backend",
+  "homepage": "https://github.com/Bharathk31/backend#readme",
+  "bugs": {
+    "url": "https://github.com/Bharathk31/backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bharathk31/backend.git"
+  },
+  "license": "ISC",
+  "author": "Bharath",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "cd backend && node src/index.js",
+    "dev": "cd backend && nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.11.1",
+    "nodemon": "^3.1.14"
+  }
+}
